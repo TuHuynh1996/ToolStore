@@ -72,8 +72,8 @@ namespace DSC_CreateDataTestTool
                     worksheet.Cells[29 + i, 2].Value = outputItemList[i].Name;
                     worksheet.Cells[29 + i, 5].Value = outputItemList[i].Digit;
                     worksheet.Cells[29 + i, 6].Value = outputItemList[i].IOInfo;
-                    worksheet.Cells[29 + i, 8].Formula = "= SUM($E$3:$E" + (27 + i) + ") + 1";
-                    worksheet.Cells[29 + i, 9].Formula = "= SUM($E$3:$E" + (28 + i) + ")";
+                    worksheet.Cells[29 + i, 8].Formula = "= SUM($E$3:$E" + (28 + i) + ") + 1";
+                    worksheet.Cells[29 + i, 9].Formula = "= SUM($E$3:$E" + (29 + i) + ")";
                     worksheet.Cells[29 + i, 12].Value = outputItemList[i].JsonName;
                 }
                 xlPackage.Save();
